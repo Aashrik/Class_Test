@@ -16,7 +16,7 @@ public class test {
             return;
         }
 
-        int choice=0,gre,calc,result,guess;
+        int choice=0;
 
         System.out.println("1) Greatest Number between three Number ");
         System.out.println("2) Calculator");
@@ -83,19 +83,19 @@ public class test {
 
             if (maths < 27 || physics < 27 || nepali < 27) {
                 System.out.println("NG");
-            } else if (percent > 90) {
+            } else if (percent >= 90 && percent<=100) {
                 System.out.println("A+");
-            } else if (percent > 80) {
+            } else if (percent >= 80 && percent<90) {
                 System.out.println("A");
-            } else if (percent > 70) {
+            } else if (percent >= 70 && percent<80) {
                 System.out.println("B+");
-            } else if (percent > 60) {
+            } else if (percent >= 60 && percent<70) {
                 System.out.println("B");
-            } else if (percent >= 50) {
+            } else if (percent >= 50 && percent<60) {
                 System.out.println("C+");
-            } else if (percent > 40) {
+            } else if (percent >= 40 && percent<50) {
                 System.out.println("C");
-            } else if (percent > 27) {
+            } else if (percent >= 27&& percent<40) {
                 System.out.println("D+");
             } else {
                 System.out.println("NG");
